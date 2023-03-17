@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Curriculum vitae du développeur web. Poste de développeur ou intégrateur. Bootstrap, React, CSS/HTML, JavaScript... Inclus un cv téléchargeable, un lien vers d'autres sites de présentation.">
+    <meta name="robots" content="Curriculum vitae, cv, développeur web, stage">
+    <meta name="googlebot" content="Curriculum vitae, cv, développeur web, stage">
+    <title>Curriculum Vitae Online - Jean-Baptiste Dho</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/da94580331.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="navbar navbar-expand-sm fixed-top bg-light">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-center align-bottom">
+                    <img id="logo" src="/icons/logo-2.png" alt="logo" style="width: 40px;">
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-hamburger color-wood"></i></span>
+                </button>
+                <div class="collapse navbar-collapse test" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link border-success border-end" aria-current="page" href="#accueil-target"
+                                data-toggle="collapse" data-bs-target=".navbar-collapse.show">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-success border-end" href="#about-me-target" data-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">About me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle border-success border-end" href="#competences"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">
+                                Compétences
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#front-target" data-toggle="collapse"
+                                        data-bs-target=".navbar-collapse.show">Front-end</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#back-target" data-toggle="collapse"
+                                        data-bs-target=".navbar-collapse.show">Back-end</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-success border-end" href="#environnement-target"
+                                data-toggle="collapse" data-bs-target=".navbar-collapse.show">Environnement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-success border-end" href="#realisation-target"
+                                data-toggle="collapse" data-bs-target=".navbar-collapse.show">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-target" data-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <main class="container-fluid">
+        <section id="accueil-target" class="rows d-flex flex-column text-center justify-content-end my-5">
+            <div class="col-11 col-sm-8 col-md-8 col-6 mx-auto my-2 py-2">
+                <h1 class="color-green my-1 bungee display-3 reveal-1">DHO &#8203;<span
+                        class="text-nowrap">Jean-Baptiste</span>
+                </h1>
+                <h4 class="color-green my-1 bungee reveal-2">Développeur web &#8203;<span class="text-nowrap">- web
+                        mobile</span>
+                </h4>
+                <h4 class="jost color-green reveal-2">- En cours de développement -</h4>
+            </div>
+            <div>
+                <p class="color-green fst-italic fw-bold jost col-10 col-sm-10 col-md-8 m-auto py-2 reveal-3">" Dans le
+                    cadre de ma formation Développeur web et web mobile, je suis à la recherche d'un stage non rémunéré
+                    de deux mois et demi pour développer mes compétences."</p>
+                <p class="color-green fst-italic fw-bold jost col-10 col-sm-10 col-md-8 m-auto py-2 reveal-3">Période du
+                    17 Avril au 30 Juin 2023.</p>
+            </div>
+            <div id="about-me-target"></div>
+            <div id="techno-icones" class="reveal-4 m-3 py-2">
+                <i id="header-icon-wordpress"
+                    class="fa-brands fa-wordpress header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3 py-2"></i>
+                <i id="header-icon-css3"
+                    class="fa-brands fa-css3 header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3"></i>
+                <i id="header-icon-html5"
+                    class="fa-brands fa-html5 header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3"></i>
+                <i id="header-icon-js" class="fa-brands fa-js header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3"></i>
+                <i id="header-icon-bootstrap"
+                    class="fa-brands fa-bootstrap header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3"></i>
+                <i id="header-icon-github"
+                    class="fa-brands fa-github header-icon col-3 col-sm-3 col-md-1 col-lg-1 px-3"></i>
+            </div>
+        </section>
+        <section id="about-me" class="rows my-5">
+            <h1 class="color-green text-center bungee col-12">{ <span class="color-wood bungee">About-me</span> }</h1>
+            <div id="photo-ul"
+                class="reveal-1 d-flex justify-content-between flex-wrap m-auto col-12 col-md-8 m-auto py-3">
+                <img id="photo-cv"
+                    class="dk-shadow col-10 col-sm-4 col-10 col-sm-6 col-md-6 col-lg-3 col-xl-3 m-auto my-2"
+                    src="/images/wbep/photo_CV_2023.webp" alt="photo cv">
+                <ul id="about-me-ul"
+                    class="color-green d-flex flex-column justify-content-between col-10 col-sm-8 col-10 col-sm-7 col-md-7 col-lg-4 col-xl-4 m-auto my-2 text-nowrap">
+                    <li>En formation développeur full-stack</li>
+                    <li>Travail autonome et en équipe</li>
+                    <li>Conception mobile-first</li>
+                    <li>Anglais courant</li>
+                    <li>Réactif</li>
+                    <li>Impliqué</li>
+                    <li>Curieux</li>
+                </ul>
+                <div class="d-flex flex-wrap text-center col-8 col-sm-8 col-md-10 col-lg-2 col-xl-2 m-auto" id="liens">
+                    <a class="text-white bg-wood rounded-3 dk-shadow col-8 col-sm-8 col-md-4 col-lg-8 p-2 m-auto my-2"
+                        href="images/Cv_2023.pdf" target="_blank"><i class="fa-regular fa-circle-down"> C.v</i></a>
+                    <a class="text-white bg-lgt-green rounded-3 dk-shadow col-8 col-sm-8 col-md-4 col-lg-8 p-2 m-auto my-2"
+                        href="#contact-target">Contact</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-evenly m-auto">
+                <div class="reveal-2 accordion m-3 col-12 col-lg-6" id="accordeon">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#part-1" aria-expanded="false" aria-controls="part-1">
+                                Situation
+                            </button>
+                        </h2>
+                        <div id="part-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                            <div class="accordion-body">
+                                <h5 class="card-title">Situation familliale</h5>
+                                <p class="card-text">Pacsé, 1 enfant</p>
+                                <h5 class="card-title">Mobilité</h5>
+                                <p class="card-text">Véhicule personnel, permis B. Recherche dans les Bouches-du-Rhône.
+                                </p>
+                                <h5 class="card-title">Loisirs</h5>
+                                <p class="card-text">Jeux, astronomie, cuisine, lecture.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#part-2" aria-expanded="false" aria-controls="part-2">
+                                Motivation
+                            </button>
+                        </h2>
+                        <div id="part-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                            <div class="accordion-body">
+                                <h5>Qui suis-je ?</h5>
+                                <p>Opticien depuis 15 ans, j'ai décidé de changer de voie pour devenir développeur web
+                                    et mobile. Doté d'une solide expérience et d'un bon relationnel, j'ai ressenti le
+                                    besoin de quitter un domaine offrant peu de possibilités d'évolution. Aujourd'hui,
+                                    je suis déterminé à mettre à disposition mes nouvelles compétences pour accompagner
+                                    les entreprises dans leurs projets web.</p>
+                                <h5>Que puis-je apporter à une entreprise ?</h5>
+                                <p>Mon expérience dans le commerce et l’optique m’a permis d’acquérir un bon relationnel
+                                    et un esprit volontaire, qui me permettent de m’intégrer rapidement au sein d'une
+                                    équipe. Ma capacité d'adaptation et ma curiosité me permettront de répondre aux
+                                    évolutions perpétuelles des langages web. Les deadlines et la satisfaction client
+                                    sont une priorité pour moi.</p>
+                                <h5>Pour la suite ?</h5>
+                                <p>Mon objectif est de me spécialiser dans la librairie React et le CMS Wordpress afin
+                                    de répondre aux besoins grandissant du marché actuel.</p>
+                                <p>Une fois mon diplôme obtenu, je compte développer mes compétences et mon expérience.
+                                    Si l’opportunité se présente, je souhaiterai poursuivre avec une licence web
+                                    développeur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#part-3" aria-expanded="false" aria-controls="part-3">
+                                Parcours professionnel
+                            </button>
+                        </h2>
+                        <div id="part-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                            <div class="accordion-body">
+                                <h5 class="fs-bold">AFPA Formation Développeur web et web mobile :</h5>
+                                <p>Novembre 2022 - Juin 2023 (En cours)</p>
+                                <h5 class="fs-bold">Krys Istres - Opticien:</h5>
+                                <ul class="list-unstyled">
+                                    <li>2006 à novembre 2022.</li>
+                                    <li>Formateur.</li>
+                                    <li>Référent contactologie & examen de vue.</li>
+                                    <li>Référent technique.</li>
+                                    <li>Créateur d'outils interactifs Excel.</li>
+                                </ul>
+                                <h5 class="fs-bold">Diplôme :</h5>
+                                <p>Licence Optique en 2010 (alternance).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="front-target"></div>
+        </section>
+        <section id="competences" class="rows d-flex flex-column text-center bg-lgt-wood justify-content-end my-5 py-3">
+            <h1 class="color-green bungee">{ Compétences }</h1>
+            <p class="color-drk-green fw-bold fst-italic col-10 m-auto">/* Les éléments ci-dessous sont le récapitulatif
+                de mes
+                compétences 3 mois après le début de la formation. Il reste beaucoup à apprendre...Challenge Accepted !
+                */
+            <p>
+            <h2 class="color-green bungee mt-3 mb-4"># Front-end</h2>
+            <div id="front" class="reveal-2 d-flex justify-content-between flex-wrap">
+                <i id="icone-laptop"
+                    class="fa-solid fa-laptop-code color-green d-none d-sm-block col-md-10 col-lg-6 m-auto"></i>
+
+                <div id="front-skills"
+                    class="reveal-2 d-flex flex-wrap bg-wht-wood col-11 col-md-10 col-lg-8 th-shadow rounded-3 m-auto p-3 ">
+                    <h3 class="color-green jetbrain text-center col-12">Langages</h3>
+                    <div id="html-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-html5 html col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-html"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 75%">75%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">Html 5
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Creation mobile-first </p>
+                    </div>
+
+                    <div id="css-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-css3 css col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-css"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 75%">75%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">Css 3
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Mise en page, complément de Bootstrap </p>
+                    </div>
+
+                    <div id="javascript-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-square-js javascript col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-javascript"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 65%">65%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                                    Javascript</div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Gestion des éléments dynamiques des pages.
+                            Utilisation en POO </p>
+                    </div>
+
+                    <div id="sass-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-sass saas col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-saas"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 30%">30%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Sass
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Meilleur lisibilité du css, organisation
+                            compréhensible et maintenable.</p>
+                    </div>
+
+                    <h3 class="color-green jetbrain text-center col-12">Frameworks</h3>
+
+                    <div id="bootstrap-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-bootstrap bootstrap col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-bootstrap"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 65%">65%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                                    Bootstrap</div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Amélioration de la productivité. Sites
+                            responsives </p>
+                    </div>
+
+                    <div id="back-target"></div>
+
+
+                    <!--                     JQuery n'est plus prioritaire au vu des améliorations constantes du javascript -vanilla-
+ -->
+
+                    <!-- <div id="jquery-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <img id="jquery" src="/icons/jquery.svg" alt="jquery icone" class="bg-gimp col-3">
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-jquery"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="20" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 20%">20%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">jQuery
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> Optimisation syntaxe js pour meilleure
+                            lisibilité du code </p>
+                    </div> -->
+
+                    <div id="react-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-react react col-3"></i>
+                            <div class="progress mx-auto col-9">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-react css"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;">10%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">React
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12"> JSX, composants fonctionnels </p>
+                    </div>
+
+                </div>
+            </div>
+            <h2 class="color-green bungee mt-5 mb-4"># Back-end</h2>
+            <div id="back" class="reveal-2 d-flex justify-content-between flex-wrap">
+                <div id="back-skills"
+                    class="d-flex flex-wrap bg-wht-wood col-11 col-md-10 col-lg-8 th-shadow rounded-3 m-auto p-3">
+
+                    <h3 class="color-green jetbrain text-center col-12">Langage</h3>
+
+                    <div id="php-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-php php col-3"></i>
+                            <div class="progress mx-auto col-8">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-php"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="40" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 40%">40%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">PHP
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12">utilisation procédurale et POO</p>
+
+                    </div>
+
+
+                    <h3 class="color-green jetbrain text-center col-12">Frameworks / outils</h3>
+
+                    <div id="symphony-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-symfony col-3"></i>
+                            <div class="progress mx-auto col-8">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-lgt-green"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 0%"></div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    Symfony</div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12">Débutant</p>
+
+                    </div>
+
+                    <div id="mariadb-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <img id="mariadb" src="/icons/mariadb.svg" alt="MariaDB icone" class="mariadb col-3">
+                            <div class="progress mx-auto col-8">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-mariadb"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 30%">30%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    MariaDB
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12">Gestion de base de données (MySql Php
+                            MyAdmin)</p>
+
+                    </div>
+
+                    <div id="node-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-node node col-3"></i>
+                            <div class="progress mx-auto col-8">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-node"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 30%">30%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Node Js
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12">Utilisation avec npm</p>
+
+                    </div>
+
+                    <div id="npm-bar" class="d-flex col-11 col-md-6 mx-auto flex-wrap p-3">
+                        <div class="d-flex align-items-center col-12">
+                            <i class="fa-brands fa-npm npm col-3"></i>
+                            <div class="progress mx-auto col-8">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-npm"
+                                    role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 30%">30%</div>
+                                <div class="progress-bar bg-lgt-green" role="progressbar" aria-label="Segment two"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">NPM
+                                </div>
+                            </div>
+                        </div>
+                        <p class="color-green jetbrain text-center col-12">Installation de composants de travail via
+                            Node.js</p>
+
+                    </div>
+
+                </div>
+                <i id="icone-bdd"
+                    class="fa-solid fa-database d-none d-sm-block color-green col-md-10 col-lg-6 m-auto"></i>
+            </div>
+            <div id="environnement-target"></div>
+            <p class="color-drk-green fw-bold fst-italic col-10 py-3 m-auto">/* La seconde moitié de la formation en
+                cours; Découverte des bases de données et manipulation avec Php MyAdmin. Découverte de PHP en tant que
+                langage, utilisation POO.*/</p>
+        </section>
+        <section id="environnement" class="rows d-flex flex-column bg-drk-green text-center my-5 py-3">
+            <h1 class="color-coffee bungee m-auto">[<span class="color-wood bungee">Environnement</span>]</h1>
+            <article class="d-flex flex-column align-items-center flex-wrap col-10 m-auto">
+
+                <div id="div-cms" class="d-flex justify-content-between align-items-center col-10 m-auto my-3">
+                    <div id="cms" class="reveal-2 col-12 col-sm-12 col-md-8 col-lg-8 th-shadow rounded-3 p-3 m-auto">
+                        <h4 class="color-green bungee m-auto">CMS</h4>
+                        <div id="wordpress-bar" class="d-flex col-11 mx-auto flex-wrap">
+                            <div class="d-flex align-items-center col-12">
+                                <i class="fa-brands fa-wordpress wordpress col-3"></i>
+                                <div class="progress mx-auto col-9">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-wordpress"
+                                        role="progressbar" aria-label="Segment one" aria-valuenow="45" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 45%">45%</div>
+                                    <div class="progress-bar bg-wood" role="progressbar" aria-label="Segment two"
+                                        aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                        Wordpress</div>
+                                </div>
+                            </div>
+                            <p class="color-green jetbrain text-center col-12">Création de site de Dnd</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-at reveal-2 icones-environnement d-none d-md-block p-2 color-wood "></i>
+                </div>
+
+                <div id="div-design" class="d-flex justify-content-between align-items-center col-10 m-auto my-3">
+                    <i
+                        class="fa-solid fa-palette reveal-2 icones-environnement color-lgt-wood d-none d-md-block col-lg-6 p-2 "></i>
+                    <div id="design" class="reveal-2 col-12 col-sm-12 col-md-8 col-lg-8 th-shadow rounded-3 p-3 m-auto">
+                        <h4 class="color-green bungee m-auto">Design</h4>
+                        <div id="figma-bar" class="d-flex col-11 flex-wrap mx-auto">
+                            <div class="d-flex align-items-center col-12">
+                                <i id="figma" class="fa-brands fa-figma col-3"></i>
+                                <div class="progress mx-auto col-9">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                        role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 30%">30%</div>
+                                    <div class="progress-bar bg-wood" role="progressbar" aria-label="Segment two"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        Figma</div>
+                                </div>
+                            </div>
+                            <p class="color-green jetbrain text-center col-12"> Maquettage </p>
+                        </div>
+                        <div id="gimp-bar" class="d-flex col-11 flex-wrap mx-auto">
+                            <div class=" d-flex justify-content-between align-items-center col-12">
+                                <img id="gimp" src="/icons/gimp_adobe_express.png" alt="gimp icone"
+                                    class="bg-gimp col-3">
+                                <div class="progress  mx-auto col-9">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-coffee"
+                                        role="progressbar" aria-label="Segment one" aria-valuenow="40" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 40%">40%</div>
+                                    <div class="progress-bar bg-wood" role="progressbar" aria-label="Segment two"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Gimp
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="color-green jetbrain text-center col-12"> Modification image </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-exploitation" class="d-flex justify-content-between align-items-center col-10 m-auto my-3">
+                    <div id="exploitation"
+                        class="reveal-2 col-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column align-items-center th-shadow rounded-3 flex-wrap p-3 m-auto">
+                        <h4 class="color-green bungee m-auto">Exploitation</h4>
+                        <div class="d-flex flex-wrap p-3 col-12">
+                            <p class="col-12 col-sm-12 col-md-6 col-lg-3 m-auto p-3"><i
+                                    class="fa-brands fa-windows windows p-2"></i>
+                                <span class="color-green jetbrain">Windows</span>
+                            </p>
+                            <p class="col-12 col-sm-12 col-md-6 col-lg-3 m-auto p-3"><i
+                                    class="fa-solid fa-database visual p-2"></i>
+                                <span class="color-green jetbrain">Visual Studio Code</span>
+                            </p>
+                            <p class="col-12 col-sm-12 col-md-6 col-lg-3 m-auto p-3"><i
+                                    class="fa-brands fa-github github p-2"></i>
+                                <span class="color-green jetbrain">Git-GitHub</span>
+                            </p>
+                        </div>
+                    </div>
+                    <i
+                        class="fa-solid fa-laptop-file reveal-2 icones-environnement d-none d-md-block col-lg-6 p-2 color-lgt-wood"></i>
+                </div>
+
+            </article>
+
+            <div id="realisation-target"></div>
+        </section>
+        <section id="realisation" class="rows d-flex bg-lgt-green flex-column text-center justify-content-end my-5">
+            <h1 class="color-coffee bungee"><span class="color-green">.</span>Réalisations</h1>
+
+            <a href="https://dho-jb-webdeveloppeur.fr/planetarium"
+                class=" jetbrain color-coffee fs-1 fw-bold p-3">Découvrir "Planétarium"</a>
+            <div id="carouselPlanetarium" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselPlanetarium" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner my-5">
+                    <div class="carousel-item active">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium"><img
+                                src="images/wbep/planetarium-accueil.webp" class="d-block w-75 m-auto"
+                                alt="Planetarium accueil vitrine"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium/#aside-planetes"><img
+                                src="images/wbep/planetarium-accueil-planetes.webp" class="d-block w-75 m-auto"
+                                alt="Planètes accueil"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium/Jupiter.html"><img
+                                src="images/wbep/planetarium-jupiter.webp" class="d-block w-75 m-auto"
+                                alt="Jupiter"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium/infos.html"><img
+                                src="images/wbep/planetarium-infos.webp" class="d-block w-75 m-auto" alt="Infos"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium/Saturne.html"><img
+                                src="images/wbep/planetarium-saturne.webp" class="d-block w-75 m-auto"
+                                alt="Saturne"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://dho-jb-webdeveloppeur.fr/planetarium/galerie.html"><img
+                                src="images/wbep/planetarium-galerie.webp" class="d-block w-75 m-auto"
+                                alt="Galerie"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlanetarium"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPlanetarium"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="separateur" style="height: 80px;"></div>
+
+            <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr"
+                class=" jetbrain color-coffee fs-1 fw-bold p-3">Découvrir "Donjon&Dragon"</a>
+            <div id="carouselDnD" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselDnD" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner my-5">
+                    <div class="carousel-item active">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr"><img
+                                src="images/wbep/DnD-accueil-vitrine.webp" class="d-block w-75 m-auto"
+                                alt="Dnd accueil vitrine"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr/accueil-membres/"><img
+                                src="images/wbep/DnD-accueil-membres.webp" class="d-block w-75 m-auto"
+                                alt="Dnd accueil membres"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr/login/"><img
+                                src="images/wbep/DnD-connexion.webp" class="d-block w-75 m-auto" alt="Connexion"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr/members/"><img
+                                src="images/wbep/DnD-membres.webp" class="d-block w-75 m-auto" alt="Membres"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr/event/campagne-1/"><img
+                                src="images/wbep/DnD-evenement.webp" class="d-block w-75 m-auto"
+                                alt="Participation Évènement"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://donjon-et-dragon.dho-jb-webdeveloppeur.fr/contact/"><img
+                                src="images/wbep/DnD-contact.webp" class="d-block w-75 m-auto" alt="Contact"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDnD" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDnD" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <div id="contact-target"></div>
+        <section id="contact" class="rows d-flex flex-column text-center justify-content-end my-5">
+            <h1 class="color-wood bungee">Contact<span class="color-green">()</span></h1>
+            <div class="d-flex flex-wrap">
+                <div
+                    class="reveal-2 d-flex flex-column bg-lgt-wood rounded-2 contact-box dk-shadow col-10 col-sm-5 col-md-4 col-lg-3 m-auto my-3 justify-content-center">
+                    <i class="fa-solid fa-paper-plane fs-3 windows p-2"></i>
+                    <a class="text-wrap p-2"
+                        href="mailto:jeanbaptiste.dho.pro@gmail.com">jeanbaptiste.dho.pro&#8203;@gmail.com</a>
+                </div>
+                <div
+                    class="reveal-2 d-flex flex-column bg-lgt-green rounded-2 contact-box dk-shadow col-10 col-sm-5 col-md-4 col-lg-3 m-auto my-3 justify-content-center">
+                    <i class="fa-solid fa-location-dot fs-3 html p-2"></i>
+                    <p class="p-2">Bouches-du-Rhône : Istres et alentours</p>
+                </div>
+            </div>
+            <a class="text-white rounded-3 bg-green dk-shadow col-8 col-sm-3 col-md-3 col-lg-2 p-2 m-auto my-4"
+                href="images/Cv_2023.pdf" target="_blank"><i class="fa-regular fa-circle-down"> C.v</i></a>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div id="footer" class="rows d-flex justify-content-center align-items-center flex-wrap">
+            <div class="text-end col-6 mx-auto p-4"><a
+                    href="https://www.linkedin.com/in/jean-baptiste-dho-d%C3%A9veloppeur-web-0314a5262"><i
+                        id="footer-icon-linkedin" class="fa-brands fa-linkedin footer-icon"></i></a></div>
+            <div class="text-start col-6 mx-auto p-4"><a href="https://github.com/jean-baptiste-dho"><i
+                        id="footer-icon-github" class="fa-brands fa-github footer-icon"></i></a>
+            </div>
+        </div>
+        <p id="credit" class="text-center fs-6 color-wood">Credit photo background : Pexels - Lukas</p>
+    </footer>
+
+</body>
+
+</html>
