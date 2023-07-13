@@ -1,324 +1,335 @@
-*{
-    box-sizing: border-box;
-    margin : 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*--------------------media  queries-------*/
-@media screen and (max-width : 575px) {
-    #nav li a {
-        font-size: 1.3em !important;
-    }
-    small, p, span {
-        font-size: 1em !important;
-    }
+@media screen and (max-width: 575px) {
+  #nav li a {
+    font-size: 1.3em !important;
+  }
+  small,
+  p,
+  span {
+    font-size: 1em !important;
+  }
 }
 
-#icone-laptop, #icone-bdd {
-    font-size: 10em !important;
+#icone-laptop,
+#icone-bdd {
+  font-size: 10em !important;
 }
 
 #nav li a {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 1.5vmax;
-    color: #678356;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.5vmax;
+  color: #678356;
 }
-#photo-cv{
-    max-width: 200px;
-    border: solid 5px #C9AF80;
+#photo-cv {
+  max-width: 200px;
+  border: solid 5px #c9af80;
 }
 
 /*--------------- font, i , footer-div size-------------*/
-#about-me-ul{
-    max-width: 80%;
-    max-height: 200px;
+#about-me-ul {
+  max-width: 80%;
+  max-height: 200px;
 }
-#competences i{
-    font-size: 20vmax;
+#competences i {
+  font-size: 20vmax;
 }
-#front i, #back i, #environnement i{
-    font-size: 2.5em;
-    max-width: 2em;
-    padding: 0.25em;
+#front i,
+#back i,
+#environnement i {
+  font-size: 2.5em;
+  max-width: 2em;
+  padding: 0.25em;
 }
-#gimp, #mariadb, #jquery{
-    max-width: 2em;
-    font-size: 2.5em;
-    padding: 0.25em;
+#gimp,
+#mariadb,
+#jquery {
+  max-width: 2em;
+  font-size: 2.5em;
+  padding: 0.25em;
 }
 
-.icones-environnement{
-    font-size: 6em !important;
+.icones-environnement {
+  font-size: 6em !important;
 }
-.header-icon{
-    font-size: 5vmax;
+.header-icon {
+  font-size: 5vmax;
 }
-.footer-icon{
-    font-size: 3em;
+.footer-icon {
+  font-size: 3em;
 }
-.contact-box{
-    min-height: 100px;
+.contact-box {
+  min-height: 100px;
 }
 /*---------------- background -------------*/
-#accueil-target, #footer {
-    width: 100%;
-    background-image: url(/images/wbep/pexels-lukas-1419923-2.webp);
-    background-size:cover;
-    background-position:75% 30%;
+#accueil-target,
+#footer {
+  width: 100%;
+  background-image: url(/images/wbep/pexels-lukas-1419923-2.webp);
+  background-size: cover;
+  background-position: 75% 30%;
 }
 #accueil-target {
-    height: 600px;
+  height: 600px;
 }
-#competences{
-    background-color: #CDB886; /*  bg-lgt-wood*/
+#competences {
+  background-color: #cdb886; /*  bg-lgt-wood*/
 }
-#front-skills, #back-skills {
-    background-color: #F1EBDF; /*  bg-wht-wood*/
+#front-skills,
+#back-skills {
+  background-color: #f1ebdf; /*  bg-wht-wood*/
 }
-#realisation{
-    background-color: #9FAD97;   /* bg-lgt-green */
+#realisation {
+  background-color: #9fad97; /* bg-lgt-green */
 }
 #footer {
-    height: 100px;
+  height: 100px;
 }
 #footer a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
-#design, #cms, #exploitation{
-    background-color: #F1EBDF
+#design,
+#cms,
+#exploitation {
+  background-color: #f1ebdf;
 }
 
 /*---------------- font family -----------*/
 
 .bungee {
-    font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
 .jetbrain {
-    font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 .jost {
-    font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 /*---------------- font color -------------*/
-.color-wood{
-    color: #C9AF80;
+.color-wood {
+  color: #c9af80;
 }
-.color-lgt-wood{
-    color: #CDB886;
+.color-lgt-wood {
+  color: #cdb886;
 }
-.color-wht-wood{
-    color: #F1EBDF;
+.color-wht-wood {
+  color: #f1ebdf;
 }
-.color-drk-green{
-    color: #4A7A5D;
+.color-drk-green {
+  color: #4a7a5d;
 }
-.color-green{
-    color: #678356;
+.color-green {
+  color: #678356;
 }
-.color-lgt-green{
-    color: #9FAD97;
+.color-lgt-green {
+  color: #9fad97;
 }
-.color-coffee{
-    color: #927B4E;
+.color-coffee {
+  color: #927b4e;
 }
-.color-gr-coffee{
-    color: #999D76;
+.color-gr-coffee {
+  color: #999d76;
 }
 
-.bg-wood{
-    background-color: #C9AF80;
+.bg-wood {
+  background-color: #c9af80;
 }
-.bg-lgt-wood{
-    background-color: #CDB886;
+.bg-lgt-wood {
+  background-color: #cdb886;
 }
-.bg-wht-wood{
-    background-color: #F1EBDF;
+.bg-wht-wood {
+  background-color: #f1ebdf;
 }
-.bg-drk-green{
-    background-color: #4A7A5D;
+.bg-drk-green {
+  background-color: #4a7a5d;
 }
-.bg-green{
-    background-color: #678356;
+.bg-green {
+  background-color: #678356;
 }
-.bg-lgt-green{
-    background-color: #9FAD97;
+.bg-lgt-green {
+  background-color: #9fad97;
 }
-.bg-coffee{
-    background-color: #927B4E;
+.bg-coffee {
+  background-color: #927b4e;
 }
-.bg-gr-coffee{
-    background-color: #999D76;
+.bg-gr-coffee {
+  background-color: #999d76;
 }
 
 /*--------------brands color-------------------*/
-.bg-html{
-    background-color: #DD4B25;
+.bg-html {
+  background-color: #dd4b25;
 }
-.bg-bootstrap{
-    background-color: #7710F1
+.bg-bootstrap {
+  background-color: #7710f1;
 }
-.bg-react{
-    background-color: #00D5F7;
+.bg-react {
+  background-color: #00d5f7;
 }
-.bg-css{
-    background-color: #254FDF;
+.bg-css {
+  background-color: #254fdf;
 }
-.bg-github{
-    background-color: #81177D;
+.bg-github {
+  background-color: #81177d;
 }
-.bg-wordpress{
-    background-color: #207196;
+.bg-wordpress {
+  background-color: #207196;
 }
-.bg-php{
-    background-color: #777BB3;
+.bg-php {
+  background-color: #777bb3;
 }
-.bg-node{
-    background-color: #6fa661;
+.bg-node {
+  background-color: #6fa661;
 }
-.bg-mariadb{
-    background-color: #BA7257;
+.bg-mariadb {
+  background-color: #ba7257;
 }
-.bg-symfony{
-    background-color: #000000;
+.bg-symfony {
+  background-color: #000000;
 }
-.bg-visual{
-    background-color: #0072B9;
+.bg-visual {
+  background-color: #0072b9;
 }
-.bg-javascript{
-    background-color: #D4A418;
+.bg-javascript {
+  background-color: #d4a418;
 }
-.bg-windows{
-    background-color: #00AAE7;
+.bg-windows {
+  background-color: #00aae7;
 }
-.bg-jquery{
-    background-color: #0868AC;
+.bg-jquery {
+  background-color: #0868ac;
 }
-.bg-linkedin{
-    background-color: #0c61bf;
+.bg-linkedin {
+  background-color: #0c61bf;
 }
-.bg-saas{
-    background-color: #C66394;
+.bg-saas {
+  background-color: #c66394;
 }
-.bg-npm{
-    background-color: #C53635;
+.bg-npm {
+  background-color: #c53635;
 }
 
-.linkedin{
-    color: #0c61bf;
+.linkedin {
+  color: #0c61bf;
 }
-.html{
-    color: #DD4B25;
+.html {
+  color: #dd4b25;
 }
-.bootstrap{
-    color: #7710F1;
+.bootstrap {
+  color: #7710f1;
 }
-.react{
-    color: #00D5F7;
+.react {
+  color: #00d5f7;
 }
-.css{
-    color: #254FDF;
+.css {
+  color: #254fdf;
 }
-.github{
-    color: #81177D;
+.github {
+  color: #81177d;
 }
-.discord{
-    color: #5562EA;
+.discord {
+  color: #5562ea;
 }
-.wordpress{
-    color: #207196;
+.wordpress {
+  color: #207196;
 }
-.php{
-    color: #777BB3;
+.php {
+  color: #777bb3;
 }
-.node{
-    color: #6fa661;
+.node {
+  color: #6fa661;
 }
-.mariadb{
-    color: #BA7257;
+.mariadb {
+  color: #ba7257;
 }
-.symfony{
-    color: #000000;
+.symfony {
+  color: #000000;
 }
-.visual{
-    color: #0072B9;
+.visual {
+  color: #0072b9;
 }
-.javascript{
-    color: #D4A418;
+.javascript {
+  color: #d4a418;
 }
-.windows{
-    color: #00AAE7;
+.windows {
+  color: #00aae7;
 }
-.jquery{
-    color: #0868AC;
+.jquery {
+  color: #0868ac;
 }
-.saas{
-    color: #C66394;
+.saas {
+  color: #c66394;
 }
-.npm{
-    color: #C53635;
+.npm {
+  color: #c53635;
 }
 
 /*----------shadow box-------------------------
 -----l'ombre de Bootstrap est trop ténue-----*/
-.dk-shadow{
-    box-shadow: 5px 5px 5px rgb(142, 142, 142);
+.dk-shadow {
+  box-shadow: 5px 5px 5px rgb(142, 142, 142);
 }
 
-.th-shadow{
-    box-shadow: 10px 15px 40px -8px rgba(0,0,0,0.5);
+.th-shadow {
+  box-shadow: 10px 15px 40px -8px rgba(0, 0, 0, 0.5);
 }
 
 /*---------apparition au défilement------------*/
 
 [class*="reveal-"] {
-    opacity: 0;
-    transform: translateY(30px);
+  opacity: 0;
+  transform: translateY(30px);
 }
-.reveal-visible{
-    opacity: 1;
-    transform: translateY(0);
-    transition: 1s cubic-bezier(.5, 0, 0, 1);
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
-.reveal-2{
-    transition-delay: .2s;
+.reveal-2 {
+  transition-delay: 0.2s;
 }
-.reveal-3{
-    transition-delay: 0.5s;
+.reveal-3 {
+  transition-delay: 0.5s;
 }
-.reveal-4{
-    transition-delay: 0.8s;
+.reveal-4 {
+  transition-delay: 0.8s;
 }
 
-/*---------animations i   ----------------*/
+/*---------hover i   ----------------*/
 
-#header-icon-wordpress:hover {
-    color: #207196;
-    transition-duration: 0.3s;
+#header-icon-react:hover {
+  color: #00d5f7;
+  transition-duration: 0.3s;
 }
-#header-icon-css3:hover {
-    color: #254FDF;
-    transition-duration: 0.3s;
+#header-icon-symfony:hover {
+  color: #717171;
+  transition-duration: 0.3s;
 }
-#header-icon-html5:hover {
-    color: #DD4B25;
-    transition-duration: 0.3s;
+#header-icon-sass:hover {
+  color: #c66394;
+  transition-duration: 0.3s;
 }
 #header-icon-js:hover {
-    color: #D4A418;
-    transition-duration: 0.3s;
+  color: #d4a418;
+  transition-duration: 0.3s;
 }
 #header-icon-bootstrap:hover {
-    color: #7710F1;
-    transition-duration: 0.3s;
+  color: #7710f1;
+  transition-duration: 0.3s;
 }
-#header-icon-github:hover, #footer-icon-github:hover{
-    color: #81177D;
-    transition-duration: 0.3s;
+#header-icon-github:hover,
+#footer-icon-github:hover {
+  color: #81177d;
+  transition-duration: 0.3s;
 }
 #footer-icon-linkedin:hover {
-    color: #0c61bf;
-    transition-duration: 0.3s;
+  color: #0c61bf;
+  transition-duration: 0.3s;
 }
-
