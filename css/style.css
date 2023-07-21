@@ -270,6 +270,12 @@
 .npm {
   color: #c53635;
 }
+.docker {
+  color: #0098d5;
+}
+.yarn {
+  color: #2c8ebb;
+}
 
 /*----------shadow box-------------------------
 -----l'ombre de Bootstrap est trop ténue-----*/
@@ -320,8 +326,8 @@
   color: #d4a418;
   transition-duration: 0.3s;
 }
-#header-icon-bootstrap:hover {
-  color: #7710f1;
+#header-icon-docker:hover {
+  color: #0098d5;
   transition-duration: 0.3s;
 }
 #header-icon-github:hover,
